@@ -4,30 +4,20 @@ public:
         int cnt =0;
         int len = word.length();
 
-        if(isupper(word[0])){
-            for(int i=0;i<len;i++){
-                if(isupper(word[i])){
-                    cnt++;
-                }
-            }
-
-            if(cnt==1||cnt==len){
-                return true;
+        for(char c: word){
+            if(isupper(c)){
+                cnt++;
             }
         }
 
-        if(islower(word[0])){
-            for(int i=0;i<len;i++){
-                if(islower(word[i])){
-                    cnt++;
-                }
-            }
-
-            if(cnt==len){
-                return true;
-            }
+        if(cnt==1 && isupper(word[0])){
+            return true;
+        }else if(cnt == len){
+            return true;
+        }else if(cnt ==0){
+            return true;
         }
 
-        return false;
+         return false;
     }
 };
