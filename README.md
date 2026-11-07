@@ -19,12 +19,7 @@ Curated solutions across **4 major coding platforms** — organized by platform,
 
 ## 📊 Live Platform Stats
 
-*Last Updated: 2026-11-06 18:32 UTC*
-
-### 🔵 Codeforces
-
-![Rating](https://img.shields.io/badge/Rating-Unrated-1F8ACB?style=flat-square)
-![Max Rating](https://img.shields.io/badge/Max-N/A-blue?style=flat-square)
+*Last Updated: 2026-11-07 17:01 UTC*
 
 ### ⚪ AtCoder
 
